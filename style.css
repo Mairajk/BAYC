@@ -146,7 +146,6 @@ header>ul>li:hover{
 
 .clr>p{
     font-size: 1em;
-    font-weight: ;
     width: 318px;
 }
 
@@ -201,9 +200,31 @@ hr.line{
 
 .third>text{
     width: 624px;
+    margin-left: 50px;
 }
 
 .third img{
-    width: 344;
-    height: 344;
+    width: 344px;
+    height: 344px;
+    margin-right: 50px;
+}
+
+.third>text>h2{
+    font-style: italic;
+    font-size: 1.7em;
+    margin-bottom: 16px;
+    font-weight :800;
+}
+
+.third>text>p>a{
+    color: #bfc500;
+    font-size: 16px;
+}
+
+.third>text>p{
+    word-spacing: 0.2em;
+}
+
+.third>text>p>a:hover{
+    color: white;
 }
