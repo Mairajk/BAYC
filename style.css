@@ -134,6 +134,7 @@ header>ul>li:hover{
     color: black;
     margin-right: 35px;
     height: 100px;
+    margin-top: 35px;
 }
 
 .clr>h1{
@@ -185,10 +186,10 @@ header>ul>li:hover{
 }
 
 hr.line{
-    width: 1092px;
+    width: 1125px;
     height: 0px;
-    /* color: gray; */
-    border-top: 1px solid #3b3b3b;
+    border: 1px solid #3b3b3b;
+    border-bottom: 1px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -227,4 +228,133 @@ hr.line{
 
 .third>text>p>a:hover{
     color: white;
+}
+
+/* @media screen and (max-width : 600px){
+    body{
+        background-color: maroon;
+    }
+} */
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 215px;
+}
+
+.i1,.i2,.i3,.i4,.i5{
+    width: 187px;
+}
+
+.icon img{
+    width: 100px;
+}
+
+.icon>.i1{
+    margin: 12.9px 28.5px;
+    text-align: center;
+}
+
+.icon>.i2{
+    margin: 26.9px 28.5px;
+    text-align: center;
+}
+
+.icon>.i3{
+    margin: 26.2px 28.5px ;
+    text-align: center;
+}
+
+.icon>.i4{
+    margin: 7.2px 28.5px;
+    text-align: center;
+}
+
+.icon>.i5{
+    margin: 32.9px 28.5px;
+    text-align: center;
+}
+
+div.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fourth>text>p{
+    width: 811px;
+    line-height: 1.5em;
+    letter-spacing: .06em;
+    font-size: 16px;
+}
+
+div.icon p{
+    font-size: 13.8px;
+    width: 157px;
+    /* text-align: center; */
+    letter-spacing: .06em;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+
+div.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fifth>text>p{
+    width: 811.5px;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 1.5em;
+    letter-spacing: .06em;
+}
+
+.fifth>img{
+    width: 162.77px;
+    padding: 0px 15px;
+    margin-right: 20px;
+}
+
+.fifth>text{
+    margin-left: 65px;
+}
+
+h2{
+    font-style: italic;
+    font-size: 1.7em;
+}
+
+.six{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.six img{
+    width: 319.77px;
+    height: 333.75px;
+}
+
+.a10,.a20,.a40,.a60,.a80,.a90,.a100{
+   display: flex;
+}
+
+.six>text p{
+    margin: 0px 15.578px;
+}
+
+.six .no{
+    color: #bfc500;
+    margin-bottom: 16px;
+}
+
+.six>text{
+    width: 748px;
+    line-height: 1.5em;
+    letter-spacing: .06em;
+}
+
+p.t{
+    margin-bottom: 16px;
 }
